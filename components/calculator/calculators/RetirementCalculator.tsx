@@ -273,7 +273,7 @@ export default function RetirementCalculator({ currency, calculatorName }: Retir
 
             {result.shortfall <= 0 && (
               <div className="bg-green-50 border border-green-200 rounded-lg p-4 text-sm text-green-800">
-                <strong>Great!</strong> You're on track for a comfortable retirement. 
+                <p>Your money&apos;s growth over time</p>;
                 Keep maintaining your savings plan and review it annually.
               </div>
             )}
