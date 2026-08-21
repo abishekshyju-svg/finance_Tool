@@ -1,0 +1,171 @@
+═══════════════════════════════════════════════════════════════
+  GOOGLE ADSENSE SETUP - QUICK REFERENCE CARD
+═══════════════════════════════════════════════════════════════
+
+📌 YOUR ADSENSE IDS (Fill this out first!)
+───────────────────────────────────────────────────────────────
+Publisher ID: ca-pub-___________________________
+              (Get from: adsense.google.com → Account → Account Info)
+
+Ad Slot IDs (Create in AdSense → Ads → By site → + New ad unit):
+┌─────────────────────┬──────────────┐
+│ Ad Position         │ Ad Slot ID   │
+├─────────────────────┼──────────────┤
+│ Header Banner       │ ____________ │
+│ Footer Banner       │ ____________ │
+│ Sidebar             │ ____________ │
+│ In-Article          │ ____________ │
+│ Mobile Banner       │ ____________ │
+│ Calculator Top      │ ____________ │
+│ Calculator Bottom   │ ____________ │
+│ Matched Content     │ ____________ │
+└─────────────────────┴──────────────┘
+
+═══════════════════════════════════════════════════════════════
+  FILES TO UPDATE (Copy your IDs into these 3 files)
+═══════════════════════════════════════════════════════════════
+
+1️⃣  FILE: app/layout.tsx
+    LINE: 21
+    ┌───────────────────────────────────────────────────────────┐
+    │ FIND:                                                     │
+    │ client=ca-pub-XXXXXXXXXXXXXXXX                            │
+    │                                                           │
+    │ REPLACE WITH:                                             │
+    │ client=ca-pub-YOUR_ACTUAL_PUBLISHER_ID                    │
+    └───────────────────────────────────────────────────────────┘
+
+2️⃣  FILE: lib/adsense-config.ts
+    LINE: 5
+    ┌───────────────────────────────────────────────────────────┐
+    │ FIND:                                                     │
+    │ publisherId: 'ca-pub-XXXXXXXXXXXXXXXX',                   │
+    │                                                           │
+    │ REPLACE WITH:                                             │
+    │ publisherId: 'ca-pub-YOUR_ACTUAL_PUBLISHER_ID',           │
+    └───────────────────────────────────────────────────────────┘
+    
+    LINES: 9-18
+    ┌───────────────────────────────────────────────────────────┐
+    │ REPLACE ALL XXXXXXXXXX with your Ad Slot IDs:            │
+    │                                                           │
+    │ adSlots: {                                                │
+    │   headerBanner: 'YOUR_HEADER_AD_SLOT_ID',                 │
+    │   footerBanner: 'YOUR_FOOTER_AD_SLOT_ID',                 │
+    │   sidebar: 'YOUR_SIDEBAR_AD_SLOT_ID',                     │
+    │   inArticle: 'YOUR_IN_ARTICLE_AD_SLOT_ID',                │
+    │   mobileBanner: 'YOUR_MOBILE_AD_SLOT_ID',                 │
+    │   calculatorTop: 'YOUR_CALC_TOP_AD_SLOT_ID',              │
+    │   calculatorBottom: 'YOUR_CALC_BOTTOM_AD_SLOT_ID',        │
+    │   matchedContent: 'YOUR_MATCHED_CONTENT_AD_SLOT_ID',      │
+    │ },                                                        │
+    └───────────────────────────────────────────────────────────┘
+
+3️⃣  FILE: components/ads/AdUnit.tsx
+    LINE: 20
+    ┌───────────────────────────────────────────────────────────┐
+    │ FIND:                                                     │
+    │ const AD_CLIENT = 'ca-pub-XXXXXXXXXXXXXXXX';              │
+    │                                                           │
+    │ REPLACE WITH:                                             │
+    │ const AD_CLIENT = 'ca-pub-YOUR_ACTUAL_PUBLISHER_ID';      │
+    └───────────────────────────────────────────────────────────┘
+    
+    LINES: 23-32
+    ┌───────────────────────────────────────────────────────────┐
+    │ REPLACE ALL XXXXXXXXXX with your Ad Slot IDs:            │
+    │                                                           │
+    │ const AD_SLOTS = {                                        │
+    │   'header-banner': 'YOUR_HEADER_AD_SLOT_ID',              │
+    │   'sidebar': 'YOUR_SIDEBAR_AD_SLOT_ID',                   │
+    │   'in-article': 'YOUR_IN_ARTICLE_AD_SLOT_ID',             │
+    │   'footer-banner': 'YOUR_FOOTER_AD_SLOT_ID',              │
+    │   'mobile-banner': 'YOUR_MOBILE_AD_SLOT_ID',              │
+    │   'calculator-top': 'YOUR_CALC_TOP_AD_SLOT_ID',           │
+    │   'calculator-bottom': 'YOUR_CALC_BOTTOM_AD_SLOT_ID',     │
+    │   'matched-content': 'YOUR_MATCHED_CONTENT_AD_SLOT_ID',   │
+    │ };                                                        │
+    └───────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════
+  TESTING & DEPLOYMENT
+═══════════════════════════════════════════════════════════════
+
+🧪 TEST IN DEVELOPMENT (Shows placeholders):
+   $ cd finance-tools-hub
+   $ npm run dev
+   
+   ✓ You should see gray "Ad Placeholder" boxes
+
+🚀 TEST IN PRODUCTION (Shows real ads):
+   $ npm run build
+   $ npm start
+   
+   ✓ Ads should load (if AdSense is approved)
+   ✓ Check browser console for errors
+
+📤 DEPLOY TO VERCEL:
+   $ npm i -g vercel
+   $ vercel --prod
+   
+   ✓ Copy the deployment URL
+   ✓ Submit to AdSense for review
+
+═══════════════════════════════════════════════════════════════
+  TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+❌ Ads not showing?
+   □ Check Publisher ID is correct (all 3 files)
+   □ Check Ad Slot IDs are correct (2 files)
+   □ Make sure NODE_ENV=production
+   □ Disable browser ad-blocker
+   □ Wait 24 hours after setup
+   □ Check AdSense account is approved
+
+❌ Console errors?
+   □ Open DevTools → Console
+   □ Look for "adsbygoogle" errors
+   □ Verify IDs match AdSense dashboard
+
+❌ Layout issues?
+   □ Ads should not overlap content
+   □ Check responsive design on mobile
+   □ Test different screen sizes
+
+═══════════════════════════════════════════════════════════════
+  WHERE ADS WILL APPEAR
+═══════════════════════════════════════════════════════════════
+
+✓ Calculator Pages (All 35):
+  - Above calculator (calculator-top)
+  - Sidebar (sticky, desktop only)
+  - In content (in-article)
+  - Below calculator (calculator-bottom)
+  - Related content (matched-content)
+
+✓ Responsive:
+  - Desktop: All ad types
+  - Tablet: Optimized sizes
+  - Mobile: Mobile-specific ads
+
+═══════════════════════════════════════════════════════════════
+  NEED MORE HELP?
+═══════════════════════════════════════════════════════════════
+
+📖 Documentation Files:
+   □ HOW_TO_ADD_YOUR_ADSENSE_ID.md     (Simple guide)
+   □ ADSENSE_SETUP_CHECKLIST.md        (Step-by-step)
+   □ ADSENSE_INTEGRATION_GUIDE.md      (Comprehensive)
+   □ ADS_IMPLEMENTATION_SUMMARY.md     (Overview)
+
+🌐 External Resources:
+   □ AdSense Help: support.google.com/adsense
+   □ Your Dashboard: adsense.google.com
+   □ Policies: support.google.com/adsense/answer/48182
+
+═══════════════════════════════════════════════════════════════
+
+💡 TIP: Print or save this card for easy reference!
+
+═══════════════════════════════════════════════════════════════
