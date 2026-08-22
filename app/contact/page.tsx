@@ -120,8 +120,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <div className="font-medium text-gray-900">Email</div>
-                    <a href="mailto:support@financehub.com" className="text-primary-600 hover:text-primary-700">
-                      support@financehub.com
+                    <a href="mailto:abishekshyju@gmail.com" className="text-primary-600 hover:text-primary-700">
+                      abishekshyju@gmail.com
                     </a>
                   </div>
                 </div>
