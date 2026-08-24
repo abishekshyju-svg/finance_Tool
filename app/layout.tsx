@@ -8,12 +8,12 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Finance Calculators Hub - Free Online Financial Calculators & Tools",
+  title: "FinanceHub - Free Online Financial Calculators & Tools",
   description: "Access 35+ free financial calculators including EMI, SIP, Loan, Tax, Insurance, and Investment calculators. Make informed financial decisions with our easy-to-use tools.",
   keywords: "financial calculator, EMI calculator, SIP calculator, loan calculator, tax calculator, investment calculator, retirement planning, mortgage calculator",
-  authors: [{ name: "Finance Calculators Hub" }],
+  authors: [{ name: "FinanceHub" }],
   openGraph: {
-    title: "Finance Calculators Hub - Free Online Financial Calculators",
+    title: "FinanceHub - Free Online Financial Calculators",
     description: "Access 35+ free financial calculators for loans, investments, taxes, and more.",
     type: "website",
   },
