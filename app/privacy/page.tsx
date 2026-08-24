@@ -159,7 +159,7 @@ export default function PrivacyPage() {
               If you have questions about this privacy policy, please contact us:
             </p>
             <div className="bg-gray-50 rounded-lg p-4">
-              <p className="text-gray-700 mb-1">Email: privacy@financehub.com</p>
+              <p className="text-gray-700 mb-1">Email: abishekshyju@gmail.com</p>
               <p className="text-gray-700">Phone: +1 (555) 123-4567</p>
             </div>
           </section>
