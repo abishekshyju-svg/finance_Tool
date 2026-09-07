@@ -35,6 +35,7 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
       </head>
+      <meta name="google-site-verification" content="s5vkSaida1n6ANTrxKcOjMGX2RI_ccVdIuH-w6ugVUM" />
       <body className={inter.className}>
         <Header />
         <main className="min-h-screen">
