@@ -1,215 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- 1. Main Homepage -->
   <url>
-       <loc>https://financetoolhub.online/</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>1.0000</priority>
+    <loc>https://financetoolhub.online/</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- 2. Planning & Goal Calculators (புதிதாகச் சேர்க்கப்பட்டது) -->
+  <url>
+    <loc>https://financetoolhub.online/planner-calculator</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
-       <loc>https://financetoolhub.online/about</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
+    <loc>https://financetoolhub.online/financial-planner-calculator</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
   </url>
   <url>
-       <loc>https://financetoolhub.online/contact</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
+    <loc>https://financetoolhub.online/retirement-planner-calculator</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 3. Investment Calculators -->
+  <url>
+    <loc>https://financetoolhub.online/sip-calculator</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
-       <loc>https://financetoolhub.online/terms</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
+    <loc>https://financetoolhub.online/lumpsum-calculator</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
   </url>
   <url>
-       <loc>https://financetoolhub.online/disclaimer</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
+    <loc>https://financetoolhub.online/compound-interest-calculator</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
   </url>
   <url>
-       <loc>https://financetoolhub.online/calculator/emi-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
+    <loc>https://financetoolhub.online/simple-interest-calculator</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- 4. Loan & Banking Calculators -->
+  <url>
+    <loc>https://financetoolhub.online/emi-calculator</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.90</priority>
   </url>
   <url>
-       <loc>https://financetoolhub.online/calculator/home-loan-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
+    <loc>https://financetoolhub.online/home-loan-emi-calculator</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
   </url>
   <url>
-       <loc>https://financetoolhub.online/calculator/sip-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
+    <loc>https://financetoolhub.online/car-loan-emi-calculator</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 5. Tax & Savings Calculators -->
+  <url>
+    <loc>https://financetoolhub.online/ppf-calculator</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
   </url>
   <url>
-       <loc>https://financetoolhub.online/calculator/income-tax-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
+    <loc>https://financetoolhub.online/fd-calculator</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
   </url>
   <url>
-       <loc>https://financetoolhub.online/calculator/car-loan-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
+    <loc>https://financetoolhub.online/rd-calculator</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
   </url>
   <url>
-       <loc>https://financetoolhub.online/calculator/bike-loan-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
+    <loc>https://financetoolhub.online/gst-calculator</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 6. Essential Policy & Info Pages -->
+  <url>
+    <loc>https://financetoolhub.online/about-us</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
-       <loc>https://financetoolhub.online/calculator/personal-loan-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
+    <loc>https://financetoolhub.online/contact-us</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.50</priority>
   </url>
   <url>
-       <loc>https://financetoolhub.online/calculator/mortgage-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
+    <loc>https://financetoolhub.online/privacy-policy</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
   </url>
   <url>
-       <loc>https://financetoolhub.online/calculator/education-loan-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
+    <loc>https://financetoolhub.online/terms-of-service</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
   </url>
   <url>
-       <loc>https://financetoolhub.online/calculator/debt-payoff-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
+    <loc>https://financetoolhub.online/disclaimer</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.30</priority>
   </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/fd-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/rd-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/ppf-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/mutual-fund-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/compound-interest-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/simple-interest-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/roi-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/savings-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/gst-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/vat-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/sales-tax-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/life-insurance-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/health-insurance-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/travel-insurance-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/insurance-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/retirement-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/pension-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/epf-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/profit-margin-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/break-even-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/discount-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/budget-planner</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/currency-converter</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/inflation-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/calculator/net-worth-calculator</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/privacy</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://financetoolhub.online/cookies</loc>
-       <lastmod>2026-09-09T02:45:52+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
+
 </urlset>
