@@ -60,7 +60,7 @@ export default function RootLayout({
           content="s5vkSaida1n6ANTrxKcOjMGX2RI_ccVdIuH-w6ugVUM"
         />
       </head>
-
+<meta name="msvalidate.01" content="D9DDBA4E5AD3C92BC84FF6BEC55FD111" />
       <body className={inter.className}>
         <Header />
 
