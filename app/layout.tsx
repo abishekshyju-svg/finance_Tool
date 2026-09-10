@@ -35,6 +35,15 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2963JX1YTE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2963JX1YTE');
+</script>
       </head>
       <meta name="google-site-verification" content="s5vkSaida1n6ANTrxKcOjMGX2RI_ccVdIuH-w6ugVUM" />
       <body className={inter.className}>
