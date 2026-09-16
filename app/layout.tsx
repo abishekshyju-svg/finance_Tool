@@ -16,32 +16,22 @@ export const metadata: Metadata = {
   authors: [{ name: "FinanceHub" }],
   openGraph: {
     title: "FinanceHub - Free Online Financial Calculators",
-    description:
-      "Access 35+ free financial calculators for loans, investments, taxes, and more.",
+    description: "Access 35+ free financial calculators for loans, investments, taxes, and more.",
     type: "website",
   },
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3552037220497563"
-     crossorigin="anonymous">
-        </script>
-        {/* Google AdSense */}
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3552037220497563"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
 
-        {/* Google Analytics */}
         <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-2963JX1YTE"
@@ -50,26 +40,24 @@ export default function RootLayout({
 
         <Script id="google-analytics" strategy="afterInteractive">
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){window.dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-2963JX1YTE');
-          `}
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){window.dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', 'G-2963JX1YTE');
+ `}
         </Script>
 
-        {/* Google Search Console Verification */}
         <meta
           name="google-site-verification"
           content="s5vkSaida1n6ANTrxKcOjMGX2RI_ccVdIuH-w6ugVUM"
         />
+        <meta name="msvalidate.01" content="D9DDBA4E5AD3C92BC84FF6BEC55FD111" />
       </head>
-<meta name="msvalidate.01" content="D9DDBA4E5AD3C92BC84FF6BEC55FD111" />
+
       <body className={inter.className}>
         <Header />
 
-        <main className="min-h-screen">
-          {children}
-        </main>
+        <main className="min-h-screen">{children}</main>
 
         <Footer />
       </body>
