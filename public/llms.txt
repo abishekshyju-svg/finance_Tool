@@ -1,0 +1,19 @@
+# Finance Tool Hub
+
+> Finance Tool Hub is a collection of fast, accurate, and user-friendly financial calculators and digital tools designed to help individuals manage budgets, loans, investments, and financial planning efficiently.
+
+## Core Financial Tools
+
+- [Loan & EMI Calculator](https://financetoolhub.online/): Calculate your monthly loan installments, interest breakdowns, and repayment schedules instantly.
+- [Investment & Savings Calculator](https://financetoolhub.online/): Plan your future growth, compound interest, and wealth accumulation. (Update with your specific sub-page URL)
+- [Tax & Budget Calculator](https://financetoolhub.online/): Estimate taxes and manage personal cash flow smoothly. (Update with your specific sub-page URL)
+
+## Resources & Guides
+
+- [Financial Blog & Tips](https://financetoolhub.online/): Read guides on personal finance management, smart saving strategies, and loan tips.
+- [About Us](https://financetoolhub.online/about): Learn more about our mission to make financial calculations simple and accessible.
+- [Contact Support](https://financetoolhub.online/contact): Reach out for feedback, tool requests, or technical support.
+
+## Optional
+
+- [Sitemap](https://financetoolhub.online/sitemap.xml): Complete XML sitemap of all site pages for search crawlers.
