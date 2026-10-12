@@ -80,7 +80,7 @@ export default function Footer() {
               © {currentYear} FinanceHub. All rights reserved.
             </p>
             <p className="text-gray-400 text-sm text-center">
-              Made with ❤️ for financial empowerment worldwide
+              Made with ❤️ for financial empowerment worldwide (Shyju)
             </p>
           </div>
         </div>
