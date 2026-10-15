@@ -25,6 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
+        <script src="https://analytics.ahrefs.com/analytics.js" data-key="sLpl66FcmDkxJk3i8zoyDQ" async></script>
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3552037220497563"
